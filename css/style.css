@@ -45,7 +45,7 @@ button {
 }
   /*Header */
 header{
-    height:500px;
+    height:450px;
     background:url('../img/bg1.jpg') no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,6 +61,7 @@ header a{
     text-decoration:none;
     text-transform:uppercase;
     font-size:16px;
+    font-weight:bold;
 }
 
 header li{
@@ -94,14 +95,14 @@ header .highlight, header .current a{
 }
 
 #slidetext{
-    padding-top:30px;
+    padding-top:20px;
     text-align:center;
-    margin-top:50px;
-    margin-bottom:50px;
+    margin-top:40px;
+    margin-bottom:30px;
 }
 
 #slidetext h1{
-    margin-top:100px;
+    margin-top:70px;
     font-size:30px;
     margin-bottom:10px;
 }
@@ -111,29 +112,10 @@ header .highlight, header .current a{
     font-size:18px;
 }
 
-#showcase{
-    min-height:400px;
-    background:url('../img/bg1.jpg');
-    text-align: center;
-    color:#ffffff;
+hr{
+  border-top: 2px solid #ef603e;
+  width: 10px;
 }
-
-#showcase nav{
-    float:right;
-    margin-top: 10px;
-}
-
-#showcase h1{
-    margin-top:100px;
-    font-size:50px;
-    margin-bottom:10px;
-}
-
-
-#showcase p{
-    font-size:18px;
-}
-
 /* main */
 
 #main{
